@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional Tests" duration-ms="12881" started-at="2018-02-17T19:08:26Z" finished-at="2018-02-17T19:08:39Z">
+    <groups>
+    </groups>
+    <test name="Paint Calculation" duration-ms="12881" started-at="2018-02-17T19:08:26Z" finished-at="2018-02-17T19:08:39Z">
+      <class name="com.ddtest.Paint.PaintCalculationTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="setupDriver" is-config="true" duration-ms="3303" started-at="2018-02-17T13:08:26Z" finished-at="2018-02-17T13:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="validationMessageDecimalNumberTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="validationMessageDecimalNumberTest" duration-ms="117" started-at="2018-02-17T13:08:29Z" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessageDecimalNumberTest -->
+        <test-method status="PASS" signature="validationMessageNegativeNumberTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="validationMessageNegativeNumberTest" duration-ms="75" started-at="2018-02-17T13:08:30Z" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessageNegativeNumberTest -->
+        <test-method status="PASS" signature="validationMessageZeroTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="validationMessageZeroTest" duration-ms="78" started-at="2018-02-17T13:08:30Z" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessageZeroTest -->
+        <test-method status="PASS" signature="validationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="validationMessagesTest" duration-ms="125" started-at="2018-02-17T13:08:30Z" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessagesTest -->
+        <test-method status="PASS" signature="homeToDimensionsNavigationTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="homeToDimensionsNavigationTest" duration-ms="159" started-at="2018-02-17T13:08:30Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.validationMessagesTest" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeToDimensionsNavigationTest -->
+        <test-method status="PASS" signature="verifyDimensionsCountTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="verifyDimensionsCountTest" duration-ms="35" started-at="2018-02-17T13:08:30Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.homeToDimensionsNavigationTest" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDimensionsCountTest -->
+        <test-method status="PASS" signature="dimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="dimensionsValidationMessagesTest" duration-ms="113" started-at="2018-02-17T13:08:30Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.verifyDimensionsCountTest" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="negativeDimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="negativeDimensionsValidationMessagesTest" duration-ms="131" started-at="2018-02-17T13:08:30Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.dimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeDimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="decimalDimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="decimalDimensionsValidationMessagesTest" duration-ms="127" started-at="2018-02-17T13:08:30Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.negativeDimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decimalDimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="zeroDimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="zeroDimensionsValidationMessagesTest" duration-ms="93" started-at="2018-02-17T13:08:30Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.decimalDimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroDimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="inputDimensionsTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="inputDimensionsTest" duration-ms="1609" started-at="2018-02-17T13:08:30Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.zeroDimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputDimensionsTest -->
+        <test-method status="PASS" signature="verifyFeetCalculated()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="verifyFeetCalculated" duration-ms="86" started-at="2018-02-17T13:08:32Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeetCalculated -->
+        <test-method status="PASS" signature="verifyGallonsCalculated()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="verifyGallonsCalculated" duration-ms="88" started-at="2018-02-17T13:08:32Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGallonsCalculated -->
+        <test-method status="PASS" signature="verifyResultsRoomcountTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="verifyResultsRoomcountTest" duration-ms="186" started-at="2018-02-17T13:08:32Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsRoomcountTest -->
+        <test-method status="PASS" signature="verifyTotalGallonsCalculated()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="verifyTotalGallonsCalculated" duration-ms="50" started-at="2018-02-17T13:08:32Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalGallonsCalculated -->
+        <test-method status="PASS" signature="backToHomeNavigationTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="backToHomeNavigationTest" duration-ms="154" started-at="2018-02-17T13:08:32Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.verifyResultsRoomcountTest, com.ddtest.Paint.PaintCalculationTest.verifyGallonsCalculated, com.ddtest.Paint.PaintCalculationTest.verifyFeetCalculated" finished-at="2018-02-17T13:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomeNavigationTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="closeDriver" is-config="true" duration-ms="1057" started-at="2018-02-17T13:08:33Z" finished-at="2018-02-17T13:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="setupDriver" is-config="true" duration-ms="2046" started-at="2018-02-17T13:08:34Z" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="validationMessageDecimalNumberTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="validationMessageDecimalNumberTest" duration-ms="124" started-at="2018-02-17T13:08:36Z" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessageDecimalNumberTest -->
+        <test-method status="PASS" signature="validationMessageNegativeNumberTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="validationMessageNegativeNumberTest" duration-ms="67" started-at="2018-02-17T13:08:36Z" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessageNegativeNumberTest -->
+        <test-method status="PASS" signature="validationMessageZeroTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="validationMessageZeroTest" duration-ms="59" started-at="2018-02-17T13:08:36Z" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessageZeroTest -->
+        <test-method status="PASS" signature="validationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="validationMessagesTest" duration-ms="126" started-at="2018-02-17T13:08:36Z" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationMessagesTest -->
+        <test-method status="PASS" signature="homeToDimensionsNavigationTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="homeToDimensionsNavigationTest" duration-ms="183" started-at="2018-02-17T13:08:36Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.validationMessagesTest" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeToDimensionsNavigationTest -->
+        <test-method status="PASS" signature="verifyDimensionsCountTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="verifyDimensionsCountTest" duration-ms="66" started-at="2018-02-17T13:08:36Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.homeToDimensionsNavigationTest" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDimensionsCountTest -->
+        <test-method status="PASS" signature="dimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="dimensionsValidationMessagesTest" duration-ms="130" started-at="2018-02-17T13:08:36Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.verifyDimensionsCountTest" finished-at="2018-02-17T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="negativeDimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="negativeDimensionsValidationMessagesTest" duration-ms="120" started-at="2018-02-17T13:08:36Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.dimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeDimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="decimalDimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="decimalDimensionsValidationMessagesTest" duration-ms="106" started-at="2018-02-17T13:08:37Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.negativeDimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decimalDimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="zeroDimensionsValidationMessagesTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="zeroDimensionsValidationMessagesTest" duration-ms="78" started-at="2018-02-17T13:08:37Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.decimalDimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroDimensionsValidationMessagesTest -->
+        <test-method status="PASS" signature="inputDimensionsTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="inputDimensionsTest" duration-ms="764" started-at="2018-02-17T13:08:37Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.zeroDimensionsValidationMessagesTest" finished-at="2018-02-17T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputDimensionsTest -->
+        <test-method status="PASS" signature="verifyFeetCalculated()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="verifyFeetCalculated" duration-ms="50" started-at="2018-02-17T13:08:38Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeetCalculated -->
+        <test-method status="PASS" signature="verifyGallonsCalculated()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="verifyGallonsCalculated" duration-ms="54" started-at="2018-02-17T13:08:38Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGallonsCalculated -->
+        <test-method status="PASS" signature="verifyResultsRoomcountTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="verifyResultsRoomcountTest" duration-ms="129" started-at="2018-02-17T13:08:38Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsRoomcountTest -->
+        <test-method status="PASS" signature="verifyTotalGallonsCalculated()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="verifyTotalGallonsCalculated" duration-ms="40" started-at="2018-02-17T13:08:38Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.inputDimensionsTest" finished-at="2018-02-17T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalGallonsCalculated -->
+        <test-method status="PASS" signature="backToHomeNavigationTest()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@5c7fa833]" name="backToHomeNavigationTest" duration-ms="129" started-at="2018-02-17T13:08:38Z" depends-on-methods="com.ddtest.Paint.PaintCalculationTest.verifyResultsRoomcountTest, com.ddtest.Paint.PaintCalculationTest.verifyGallonsCalculated, com.ddtest.Paint.PaintCalculationTest.verifyFeetCalculated" finished-at="2018-02-17T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomeNavigationTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.ddtest.Paint.PaintCalculationTest@39aeed2f]" name="closeDriver" is-config="true" duration-ms="969" started-at="2018-02-17T13:08:38Z" finished-at="2018-02-17T13:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.ddtest.Paint.PaintCalculationTest -->
+    </test> <!-- Paint Calculation -->
+  </suite> <!-- Functional Tests -->
+</testng-results>
